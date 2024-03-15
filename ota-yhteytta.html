@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyyli.css">
+    <title>Futisnörtti - Ota Yhteyttä</title>
+    <style>
+        #site-header {
+            position: relative;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .grid-teksti1 {
+            grid-column: span 3;
+        }
+    </style>
+</head>
+<body>
+    <header id="site-header">
+        <a href="index.html" class="futisnortti-link">Futisnörtti</a>
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">etusivu</a></li>
+                    <li><a href="./uutiset.html">uutiset</a></li>
+                    <li><a href="./tekija.html">tekijä</a></li>
+                    <li><a href="./ota-yhteytta.html">ota yhteyttä</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div style="margin-top: 180px;"></div>
+    <section class="grid-container">
+        <div class="grid-teksti1">
+            <h1>Ota Yhteyttä</h1>
+            <article>
+                <p class="tekijan-pvm">Päivitetty: 11. maaliskuuta 2024</p>
+                <p>Yhteydenotot ovat aina tervetulleita! Ota rohkeasti yhteyttä alla olevien yhteystietojen avulla:</p>
+                <ul>
+                    <li><strong>Sähköposti:</strong> <a href="mailto:luukas.westerholm@example.com">luukas.westerholm@example.com</a></li>
+                    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/luukas.we/" target="_blank">Luukas_Westerholm</a></li>
+                    <li><strong>Facebook:</strong> <a href="https://www.facebook.com/luukas.westerholm" target="_blank">Luukas Westerholm</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/luukaswesterholm/" target="_blank">Luukas Westerholm</a></li>
+                    <li><strong>Puhelinnumero:</strong> <a href="tel:+358501234567">+358 50 123 4567</a></li>
+                </ul>
+                <p>Voit ottaa yhteyttä millä tahansa näistä kanavista. Odotan innolla viestejänne ja palautettanne!</p>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

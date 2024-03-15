@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyyli.css">
+    <title>Futisnörtti - Tekijä</title>
+    <style>
+        #site-header {
+            position: relative;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .grid-teksti1 {
+            grid-column: span 3;
+        }
+    </style>
+</head>
+<body>
+    <header id="site-header">
+        <a href="index.html" class="futisnortti-link">Futisnörtti</a>
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">etusivu</a></li>
+                    <li><a href="./uutiset.html">uutiset</a></li>
+                    <li><a href="./tekija.html">tekijä</a></li>
+                    <li><a href="./ota-yhteytta.html">ota yhteyttä</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div style="margin-top: 180px;"></div>
+    <section class="grid-container">
+        <div class="grid-teksti1">
+            <h1>Luukas Westerholm - Futisnörtin Luoja</h1>
+            <article>
+                <p class="tekijan-pvm">Päivitetty: 11. maaliskuuta 2024</p>
+                <p>Tervehdys kaikille futisfaneille! Olen Luukas Westerholm, tietojenkäsittelyn opiskelija ja intohimoinen jalkapallon ystävä. Futisnörtin luomisen taustalla on halu tarjota rehellistä ja tilastopohjaista tietoa jalkapallon maailmasta.</p>
+                <p>Olen opiskellut tietojenkäsittelyä muutaman kuukauden, ja tämä sivusto on syntynyt intohimostani sekä halusta yhdistää tietotekniikka ja jalkapallo. Tämä on ollut minulle mielenkiintoinen projekti, ja toivon, että löydätte sivustolta hyödyllistä tietoa ja mielenkiintoisia näkökulmia jalkapallosta.</p>
+                <p>Futisnörtti-sivusto pyrkii tarjoamaan objektiivista tietoa jalkapallon tapahtumista, pelaajista ja tilastoista. Käytän päivittäisessä työssäni luotettavia tietolähteitä, kuten Whoscored ja Fotmob, varmistaakseni, että kaikki tiedot ovat ajantasaisia ja tarkkoja.</p>
+                <p>Toivon, että nautitte sivuston sisällöstä ja löydätte täältä mielenkiintoista luettavaa jalkapallon maailmasta. Kiitos, että olette mukana matkallani!</p>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

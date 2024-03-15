@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyyli.css">
+    <title>Futisnörtti - Uutiset</title>
+    <style>
+        #site-header {
+            position: relative;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .grid-teksti1 {
+            grid-column: span 3;
+        }
+    </style>
+</head>
+<body>
+    <header id="site-header">
+        <a href="index.html" class="futisnortti-link">Futisnörtti</a>
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">etusivu</a></li>
+                    <li><a href="./uutiset.html">uutiset</a></li>
+                    <li><a href="./tekija.html">tekijä</a></li>
+                    <li><a href="./ota-yhteytta.html">ota yhteyttä</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div style="margin-top: 180px;"></div>
+    <section class="grid-container">
+        <div class="grid-teksti1">
+            <h1>Viikon Uutiset</h1>
+            <article>
+                <h2>Ronaldo vaihtaa seuraa. Luukas kommentoi "Benderi käynnissä"</h2>
+                <img src="kuvat/ronaldo11.png" alt="Uutiskuva"width="150" height="150">
+                <p class="uutis-pvm">Päivitetty: 11. maaliskuuta 2024</p>
+                <p>Cristiano Ronaldo, yksi jalkapallon kaikkien aikojen suurimmista pelaajista, on tehnyt järkyttävän siirron urallaan. Portugalilaistähti on päättänyt vaihtaa seuraa ja liittyy nyt FCV:n riveihin.</p>
+                <p>Ronaldon siirto on herättänyt suurta huomiota futismaailmassa, ja se on yksi suurimmista siirroista viime aikoina. FCV:n fanit ympäri maailmaa odottavat innolla nähdäkseen, miten Ronaldo sopeutuu uuteen ympäristöön ja mitä hän tuo joukkueelleen.</p>
+                <p>Siirto tapahtui äkillisesti, ja monet asiantuntijat pohtivat, miten tämä muuttaa FCV:n pelityyliä ja mahdollisesti vaikuttaa heidän menestykseensä tulevissa kilpailuissa.</p>
+                <p>Ronaldo itse kommentoi siirtoa seuraavasti: "Olen innoissani uudesta haasteesta FCV:ssä. Uskon, että voimme saavuttaa suuria asioita yhdessä ja tehdä historiaa tässä uudessa vaiheessa urallani."</p>
+            </article>
+            <article>
+                <h2>Luukas Westerholm teki hattutempun</h2>
+                <img src="kuvat/luukas.png" alt="Uutiskuva"width="150" height="150">
+                <p>Luukas Westerholm löi ronaldoa vastaan hattutempun vaajakoskella.</p>
+                <p> " Siitäs sait Ronaldo" huudahti Luukas ylen toimittajalle</p>
+            </article>
+            <article>
+                <h2>Jalkapallofanit riehuivat Antti Aution keikalla</h2>
+                <p>Antti Aution debyyttikeikka juurituoreelle albumilleen " Täällä sinua kaivataan" oli katastrofi.</p>
+                <p>Jalkapallo fanit pilasivat keikan. Riehuivat ja heittivät oluita solistin päälle.</p>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
